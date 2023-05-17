@@ -1,13 +1,15 @@
 import "./styles/App.css";
 
-function App() {
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>ClairtObscur</p>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
-export default App;
